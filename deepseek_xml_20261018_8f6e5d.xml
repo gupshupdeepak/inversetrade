@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main single-page site: Home, Guide, Contact, Pricing, FAQ all live at "/" -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yourdomain.com/assets/og-cover.png</image:loc>
+      <image:title>InverseTrade — Trade Against Yourself and Win</image:title>
+      <image:caption>Firefox paper-trading extension that flips every trade you log.</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
