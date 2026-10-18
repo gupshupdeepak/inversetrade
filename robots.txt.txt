@@ -1,0 +1,33 @@
+# =============================================================
+#  InverseTrade — robots.txt
+#  Single-page site. All content is served from "/" because
+#  Home / Guide / Contact are client-side views on one page.
+# =============================================================
+
+User-agent: *
+Allow: /
+Allow: /index.html
+
+# Secure / transactional / non-indexable paths
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?utm_
+Disallow: /*?sessionid=
+
+# Explicitly welcome the major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# --- Sitemap ---
+Sitemap: https://yourdomain.com/sitemap.xml
